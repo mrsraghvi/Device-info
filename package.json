@@ -1,0 +1,13 @@
+{
+  "name": "device-info",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"node index.js\" \"ngrok http 3000\""
+  },
+  "dependencies": {
+    "concurrently": "^9.2.0",
+    "express": "^5.1.0"
+  }
+}
