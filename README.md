@@ -1,15 +1,13 @@
-Here’s a clean and complete `README.md` file for your **Device Info Collector Web App** project:
-
 ---
 
-### ✅ `README.md`
+✅ `README.md`
 
 ````markdown
 # Device Info Collector Web App
 
 A Node.js web application that displays a user's screen resolution, IP address, current webpage URL, and geolocation in the browser. The app is served using Express and made publicly accessible using Ngrok.
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 
 - Node.js
 - Express.js
@@ -18,7 +16,7 @@ A Node.js web application that displays a user's screen resolution, IP address, 
 - IPAPI (for IP-based geolocation)
 - Concurrently (to run server + tunnel)
 
-## 🚀 How to Run
+🚀 How to Run
 
 1. Install dependencies:
    ```bash
@@ -33,7 +31,7 @@ A Node.js web application that displays a user's screen resolution, IP address, 
 
 3. Open the Ngrok public URL shown in the terminal.
 
-## 📂 Project Structure
+📂 Project Structure
 
 ```
 device-info-app/
@@ -43,7 +41,7 @@ device-info-app/
     └── index.html     # Frontend UI
 ```
 
-## 🌍 Features
+🌍 Features
 
 * Collects:
 
@@ -53,17 +51,12 @@ device-info-app/
   * Geolocation (with permission)
 * Exposes local server via Ngrok
 
-## 🔒 Privacy
+🔒 Privacy
 
 No user data is stored. This app is for educational and demonstration purposes only.
 
-## 📄 License
+📄 License
 
 MIT License
 
-```
 
----
-
-Let me know if you'd like to include **screenshots** or **deployment instructions**!
-```
